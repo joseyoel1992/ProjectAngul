@@ -14,6 +14,8 @@ import { ItemComponent } from './pages/item/item.component';
 
 // Servicios
 import { InfoPaginaService } from './services/info-pagina.service';
+import { ProductService } from './services/product.service';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,7 @@ import { InfoPaginaService } from './services/info-pagina.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [InfoPaginaService],
+  providers: [InfoPaginaService, ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
