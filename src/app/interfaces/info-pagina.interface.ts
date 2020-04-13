@@ -5,7 +5,7 @@ export interface infoPaginaInterface {
     Pais?: string;
     instagram?: string;
     facebook?: string;
-    twitter?:string;
+    twitter?: string;
     tublr?: string;
     equipo_trabajo?: any[];
   }

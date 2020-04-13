@@ -7,10 +7,9 @@ import { ItemComponent } from './pages/item/item.component';
 import { AboutComponent } from './pages/about/about.component';
 
 
-
 const routes: Routes = [
 {path: '' , component: PortafolioComponent},
-{path: 'item' , component: ItemComponent},
+{path: 'item/:id' , component: ItemComponent},
 {path: 'about' , component: AboutComponent},
 {path: '**' , component: PortafolioComponent},
 
